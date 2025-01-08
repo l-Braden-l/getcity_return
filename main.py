@@ -6,21 +6,18 @@
 
 #----1----#
 def get_city():
-    city = input('Please enter the name of the city you live in: ')
-    return city
+    return input('Please enter the name of the city you live in: ') 
 
 
 #----2----#
 def get_age():
-    age = int(input('Please enter your age: '))
-    return age
+    return int(input('Please enter your age: '))
 
 
 #----3----#
 def build_output(city,age):
-    message = f'You live in {city} and you are {age} years old.'
-    return message 
-
+     return f'You live in {city} and you are {age} years old.'
+    
 
 
 age = get_age()
