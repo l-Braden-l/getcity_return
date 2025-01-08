@@ -1,6 +1,6 @@
-#
-#
-#
+#Braden Leach
+#january 8 2025
+#Return City Function
 
 
 
@@ -22,7 +22,9 @@ def build_output(city,age):
     return message 
 
 
-def display_message(message):
- print(message)
 
+age = get_age()
+city = get_city()
+message = build_output(city,age)
 
+print(message)
